@@ -30,6 +30,6 @@ jobs:
         with:
           name: output-log-file
   check-ref:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "This is Branch $GITHUB_REF"
